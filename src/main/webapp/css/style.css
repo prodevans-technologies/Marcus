@@ -42,8 +42,9 @@ input[type="password"],
 input[type="email"],
 textarea {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 11px;
+	font-weight: 100;
+	font-style:italic;
 	color: #7e7e7e;
 	border-width: 1px;
 	border-style: solid;
@@ -64,17 +65,12 @@ textarea {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
-textarea:focus {
-	background: rgba(62, 212, 255, 0.5);
-	border-color: #010745 !important;
-	outline: none;
-	color: #333;
-}
+
 
 .btn {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 100;
 	width: 120px;
 	height: 40px;
 	-moz-border-radius: 0;
@@ -107,14 +103,18 @@ textarea:focus {
 	position: relative;
 	z-index: 3;
 }
+.container1 {
+	
+	z-index: 2;
+}
 
 /*Header*/
 /*Top nav left*/
 .top-nav {
-	;
+	
 	color: #333;
 	line-height: 40px;
-	border-bottom: 1px solid #010745;
+	
 }
 
 /*Top left Menu*/
@@ -874,7 +874,7 @@ textarea:focus {
 }
 
 #service .service-footer-left h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	font-size: 22px;
 	color: #fff;
@@ -1055,7 +1055,7 @@ textarea:focus {
 /*Contact*/
 
 #contact {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 #contact .contact-heading {
@@ -1110,7 +1110,7 @@ textarea:focus {
 
 /*Get In Touch*/
 #get-touch {
-	margin-top: 100px;
+	margin-top: 30px;
 }
 
 #get-touch .get-touch-heading {
@@ -1118,21 +1118,66 @@ textarea:focus {
 }
 
 #get-touch .get-touch-heading h2 {
+	text-align: left;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 36px;
-	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 30px;
+	color: #000000;
+	
 }
+
+
+/*text rotate*/
+
+.rotate {
+    display:inline-block;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg); 
+	text-align:center;
+}
+
+.tblborder, .tblborder td, .tblborder th{
+   
+    border:0px solid #000;
+    font-family: 'Roboto', sans-serif;
+	font-size: 90px;
+	font-weight: 100;
+	color: #FFFFFF;
+	
+}
+
+
+.v{
+font-size: 70px;
+}
+
+.tblborder td, .tblborder th{
+    padding:120px 0px;
+	padding-top:100px 0px;
+	bottom: 0;
+	left: 50%;
+	right:0%;
+	height:100%;
+}
+
 
 #get-touch .get-touch-heading p {
 	margin-top: 20px;
 	line-height: 25px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	font-weight: 100;
+	color: #7e7e7e;
+	padding: 0 1px;
 	color: #8e8e8e;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 
 #get-touch .content {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 #get-touch .content .form input {
@@ -1169,7 +1214,7 @@ textarea:focus {
 #google-map{
     position:relative;
     margin-top:10px;
-    height: 400px;
+    height: 200px;
 }
 
 /*Client*/
@@ -1196,7 +1241,7 @@ textarea:focus {
 /*Media*/
 @media screen and (min-width: 320px) and (max-width: 520px) {
 	#contact {
-		margin-top: 50px;
+		margin-top: 10px;
 	}
 
 	#contact .contact-heading h2 {
