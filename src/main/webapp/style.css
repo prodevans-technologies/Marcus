@@ -1,0 +1,381 @@
+
+
+*
+{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  flex-direction:         row-reverse;
+}
+
+.sec1btnflex {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:  row-reverse;
+    
+ 
+}
+
+.heroCol
+{
+    background: ffcc00;
+    background-color: #ffcc00;
+}
+
+.h1
+{
+}
+
+.myHeader
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46pt;
+    font-weight: 100;
+    color: #000000;
+    padding-left: 10px;
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+.myPara
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17pt;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+.sec2header
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+    font-weight: 100;
+}
+
+.sec2row
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.nopadding
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.sec3rowbg
+{
+    background-color: #0066cc;
+}
+
+.sec3header
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46pt;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 10px;
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+.sec3para
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 1px;
+    color: #ffffff;
+}
+
+.sec4row
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec5row
+{
+    background-color: #ebebeb;
+    padding: 2em 0;
+}
+
+.sec5header
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46pt;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+}
+
+.sec5button
+{
+    display: table;
+    margin: 0 auto;
+}
+
+.sec5hd2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec5para
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 300;
+}
+
+.sec6header
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+.sec6para
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.sec6row
+{
+    padding: 2em 0;
+}
+
+.sec7img
+{
+    background-color: #999a99;
+}
+
+.sec7header
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40pt;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sec7row
+{
+    padding-bottom: 0px;
+    background-color: #ebebeb;
+}
+
+.text-carousel
+{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.left.carousel-control
+{
+    background-image: none;
+}
+
+.right.carousel-control
+{
+    background-image: none;
+}
+
+.carousel-content
+{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-row
+{
+    max-height: 200px;
+}
+
+.sec2block
+{
+    background-color: #ebebeb;
+    margin: 0 20px;
+}
+
+.sec2blk_eq_ht {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+   
+}
+
+.sec2blktxt
+{
+    font-family: open sans;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plan_rs
+{
+    font-family: open sans;
+    font-weight: 300;
+    font-size: 44pt;
+    text-align: center;
+    color: #0066cc;
+    padding-bottom: 10px;
+}
+
+.sec2hd3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-xl
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 40%;
+}
+
+.separating_line
+{
+    border-bottom: 3px #cccccc solid;
+}
+
+.sec2btnpadding
+{
+    padding-bottom: 20px;
+}
+
+.btn-xl_sec2
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+.btn-xl_sec5
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 24px;
+    border-radius: 0px;
+}
+
+.btn-xl_sec6
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 24px;
+    border-radius: 0px;
+}
+
+.flex-container_sec7 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  flex-direction:         row;
+}
+
+.sec2btnflex {
+        display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.btn-xl_sec7
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 24px;
+    border-radius: 0px;
+}
+
+.img-contain
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-bottom: 0;
+}
+
+.navbar_height
+{
+    height: 120px;
+}
+
+.navbar_adjust
+{
+    padding-top: 40px;
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+}
+
+.nav-item-underlined:after, .nav-underlined > li:after {
+  display: block;
+  content: " ";
+  bottom: 2px;
+  border-bottom: 2px solid transparent;
+  width: 0;
+  width: auto;
+  transition: all 0.2s;
+}
+.underlined-active:after, .nav-underlined:hover > li:hover:after, .nav-underlined:active > li:hover:after, .nav-underlined:hover > li.active:hover:after, .nav-underlined:active > li.active:hover:after, .nav-underlined > li.active:after, .nav-underlined > li:hover:after 
+{
+  border-color: #337ab7;
+}
+.unline-deactived:after, .nav-underlined:hover > li.active:after, .nav-underlined:active > li.active:after 
+{
+  border-color: transparent;
+}
+.nav-underlined > li > a:hover, .nav-underlined > li > a:active, .nav-underlined > li > a:focus 
+{
+  background: transparent;
+}
+.box-underline 
+{
+  border-bottom: 0px solid #eee;
+}
+
