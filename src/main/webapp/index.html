@@ -19,6 +19,8 @@
           <![endif]-->
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link href="bootstrap/css/simple-slider.css" rel="stylesheet" type="text/css" />
+        <link href="bootstrap/css/simple-slider-volume.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
         <div class="container">
@@ -113,20 +115,25 @@
                 </div>
                 <div class="col-md-4 sec2block">
                     <h3 class="sec5hd2">PLANS</h3>
-                    <h3 class="sec2hd3">BASIC STANDARD PREMIUM</h3>
+                    <h3 class="sec2hd3"><span id="basic">BASIC </span>&nbsp; <span id="standard">STANDARD</span> &nbsp;<span id="premium">PREMIUM</span></h3>
+                    <div id="slider-text" class="hidden-xs" align="center">
+                        <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
+                    </div>
                     <p class="sec2blktxt">Slide to explore plans</p>
                     <p class="sec2blktxt">Already a Customer? </p>
                     <p class="sec2blktxt"> <a href="">Log in to</a> change plans or check usage.</p>
                 </div>
                 <div class="col-md-4 sec2block">
-                    <h3 class="plan_rs separating_line">Rs. 350</h3> 
-                    <p class="sec2blktxt"> >100mbps * 512mbps post FUP</p> 
+                    <!--<h3 class="plan_rs separating_line">Rs. 350</h3> -->
+                    <h3 class="plan_rs separating_line"><div id="slidertextprice"/></h3> 
+                    <p class="sec2blktxt"> *<span id="slidertextdata"/></p>
+                    <p class="sec2blktxt"> *<span id="slidertextspeed"/></p> 
                     <p class="sec2blktxt"> *Exclusive of GST</p>
                     <div class="col-md-12 text-center sec2btnpadding">
                         <button type="button" class="btn btn-danger btn-xl_sec2 "> BUY NOW </button>                         
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -290,6 +297,59 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
+
+
+
+
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/carouselHt.js"></script>       
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+        <script src="bootstrap/js/simple-slider.js"></script>
+        <script>
+
+
+
+            $("[data-slider]")
+                    .each(function () {
+                        var input = $(this);
+                        $("<span>")
+                                .addClass("output")
+                                .insertAfter($(this));
+                    })
+                    .bind("slider:ready slider:changed", function (event, data) {
+
+                        if (data.value.toFixed(3) == 100)
+                        {
+                            $("#basic").css('color', '#A9A9A9');
+                            $("#premium").css('color', '#A9A9A9');
+                            $("#standard").css('color', '#000000');
+                            $("#slidertextprice").html('Rs.1140');
+                            $("#slidertextdata").text('60GB Data');
+                            $("#slidertextspeed").text('512Kbps Post FUP Speed');
+                        }
+                        if (data.value.toFixed(3) == 0)
+                        {
+
+                            $("#standard").css('color', '#A9A9A9');
+                            $("#premium").css('color', '#A9A9A9');
+                            $("#basic").css('color', '#000000');
+                            $("#slidertextprice").html('Rs.849');
+                            $("#slidertextdata").text('40GB Data');
+                            $("#slidertextspeed").text('512Kbps Post FUP Speed');
+                        }
+                        if (data.value.toFixed(3) == 200)
+                        {
+
+                            $("#basic").css('color', '#A9A9A9');
+                            $("#premium").css('color', '#000000');
+                            $("#standard").css('color', '#A9A9A9');
+                            $("#slidertextprice").html('Rs.1875');
+                            $("#slidertextdata").text('100GB Data');
+                            $("#slidertextspeed").text('2Mbps Post FUP Speed');
+                        }
+
+                    });
+        </script>
     </body>
 </html>
