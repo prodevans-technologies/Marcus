@@ -1,3 +1,37 @@
+/*
+Breakpoints
+*/
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {  
+  .myPara {font-size:1.7rem;} /*1rem = 16px*/
+  .myHeader{font-size:3rem;}
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .myPara {font-size:2rem;} /*1rem = 16px*/
+  .myHeader{font-size:4rem;}
+}
+
+/* Laptops, 15 inch desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .myPara {font-size:2rem;} /*1rem = 16px*/
+  .myHeader{font-size:4.8rem;}
+}
+
+@media (min-width: 1366px) { 
+  .myPara {font-size:2.2rem;} /*1rem = 16px*/
+  .myHeader{font-size:4.9rem;}
+}
+
+/* Large Laptops, desktops, tv screens etc 1600px and up) */
+@media (min-width: 1600px) {  
+  .myPara {font-size:3rem;} /*1rem = 16px*/
+  .myHeader{font-size:7rem;}
+}
+
+
 
 .flex-container {
     display: -webkit-flex;
