@@ -194,11 +194,12 @@ Breakpoints
 .sec6row
 {
     padding: 1em 0;
+    background-color: #ebebeb;
 }
 
 .sec7img
 {
-    background-color: #999a99;
+    background-color: #ffffff;
 }
 
 .sec7header
@@ -214,7 +215,7 @@ Breakpoints
 .sec7row
 {
     padding-bottom: 0px;
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
 
 .text-carousel
@@ -427,7 +428,7 @@ Breakpoints
     padding-bottom: 0;
     color: #000000;
     height: auto;
-
+    background-color: #ffffff;
     position: relative;
     width: 100%;
 
@@ -469,4 +470,42 @@ Breakpoints
 }
 .footer-bottom p.pull-left {
     padding-top: 6px;
+}
+
+
+/*faq*/ 
+    
+
+.faqheader
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40pt;
+    color: #ffffff;
+    font-weight: 100;
+    background-image: url("./assets/images/faq.png");
+        
+    background-size: cover;
+}
+
+.faaqheaderpadding
+{
+   padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.faqrow
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.faqp {
+
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 20px;
+    padding: 40px 0 10px;
+    
 }
