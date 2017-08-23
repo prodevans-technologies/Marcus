@@ -104,7 +104,11 @@
         display: flex;
     }
 }
-
+.vlogo
+{
+    height: 100px;
+    width: 143px;
+}
 .left-right-bottom-padding
 {
     padding-left: 30px;
