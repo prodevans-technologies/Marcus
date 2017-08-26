@@ -34,7 +34,7 @@
     }
     h4
     {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -236,7 +236,7 @@
 
 .sec3header
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40pt;
     font-weight: 100;
     color: #ffffff;
@@ -247,8 +247,8 @@
 
 .sec3para
 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 17pt;
     text-align: left;
     margin-left: 20px;
@@ -309,7 +309,7 @@
 
 .sec6header
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40pt;
     font-weight: 100;
     text-align: center;
@@ -317,7 +317,7 @@
 
 .sec6para
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20pt;
     text-align: center;
