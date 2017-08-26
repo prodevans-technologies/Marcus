@@ -169,7 +169,7 @@ p
 .navbar
 {
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     padding-bottom: 0;
 }
@@ -182,7 +182,7 @@ p
 .navbar_adjust
 {
     padding-top: 40px;
-    font-family: "Roboto", sans-serif;
+    font-family: "open sans", sans-serif;
     font-weight: 400;
     font-size: 13pt;
 }
@@ -235,7 +235,7 @@ p
 .footer
 {
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     padding-bottom: 0;
     color: #000000;
