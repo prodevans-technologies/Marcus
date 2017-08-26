@@ -208,6 +208,15 @@
     background-color: #ebebeb;
 }
 
+.valign
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+   
+}
+
 /* end of general */
 
 /* section 1 */
