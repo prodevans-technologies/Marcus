@@ -1,5 +1,3 @@
-
-
 /* Breakpoints */
 
 /* Small devices (landscape phones, 320px and up) */
@@ -217,7 +215,7 @@
 .sec1btnflex {
     display: -webkit-flex;
     display: flex;
-    flex-direction:  row-reverse;
+    flex-direction:  row;
 }
 
 /* end of section 1 */
@@ -229,6 +227,99 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.sec5hd2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+.sec2block
+{
+    background-color: #ebebeb;
+    margin: 0 20px;
+}
+
+.sec2blk_eq_ht {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+}
+
+.sec2blktxt
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.sec2hd3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+.plan_rs
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 44pt;
+    text-align: center;
+    color: #0066cc;
+    padding-bottom: 15px;
+}
+
+
+.separating_line
+{
+    border-bottom: 3px #cccccc solid;
+}
+
+.sec2btnpadding
+{
+    padding-bottom: 20px;
+}
+
+.sec2btnflex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.sec2hd2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+.sec2blkpara
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.btn-xl_sec2
+{
+    font-family: open sans;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
 
 /* end of section 2 */
 
@@ -261,6 +352,14 @@
 
 /* section 4 */
 
+
+.sec4row
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 /* end of section 4 */
 
 /* section 5 */
@@ -278,34 +377,21 @@
     margin: 0 auto;
 }
 
-.sec5hd2
+
+.btn-xl_sec5
 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 28pt;
-    font-weight: 100;
-    text-align: center;
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 20px;
+    border-radius: 0px;
 }
+
 
 /* end of section 5 */
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row-reverse;
-    flex-direction:         row-reverse;
-}
 
-.nopadding
-{
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.sec4row
-{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+/* section 6 */
 
 .sec6header
 {
@@ -328,6 +414,21 @@
     padding: 1em 0;
 }
 
+.btn-xl_sec6
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+/* end of section 6 */
+
+
+/* section 7 */
+
+
 .sec7img
 {
     background-color: #999a99;
@@ -349,6 +450,40 @@
     padding-top: 20px;
     background-color: #ebebeb;
 }
+
+.btn-xl_sec7
+{
+    font-family: open sans;
+    font-weight: 300;
+    padding: 1px 1px;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+
+.flex-container_sec7 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:         row;
+}
+
+
+/* end of section 7 */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:         row-reverse;
+}
+
+.nopadding
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 
 .text-carousel
 {
@@ -382,105 +517,6 @@
 .carousel-row
 {
     max-height: 200px;
-}
-
-.sec2block
-{
-    background-color: #ebebeb;
-    margin: 0 20px;
-}
-
-.sec2blk_eq_ht {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
-
-}
-
-.sec2blktxt
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 25px;
-    text-align: center;
-}
-
-.plan_rs
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 44pt;
-    text-align: center;
-    color: #0066cc;
-    padding-bottom: 15px;
-}
-
-.sec2hd3
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24pt;
-    font-weight: 100;
-    text-align: center;
-}
-
-.separating_line
-{
-    border-bottom: 3px #cccccc solid;
-}
-
-.sec2btnpadding
-{
-    padding-bottom: 20px;
-}
-
-.btn-xl_sec2
-{
-    font-family: open sans;
-    font-weight: 300;
-    font-size: 20px;
-    border-radius: 0px;
-}
-
-.btn-xl_sec5
-{
-    font-family: open sans;
-    font-weight: 300;
-    padding: 1px 1px;
-    font-size: 20px;
-    border-radius: 0px;
-}
-
-.btn-xl_sec6
-{
-    font-family: open sans;
-    font-weight: 300;
-    padding: 1px 1px;
-    font-size: 20px;
-    border-radius: 0px;
-}
-
-.flex-container_sec7 {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row-reverse;
-    flex-direction:         row;
-}
-
-.sec2btnflex {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-}
-
-.btn-xl_sec7
-{
-    font-family: open sans;
-    font-weight: 300;
-    padding: 1px 1px;
-    font-size: 20px;
-    border-radius: 0px;
 }
 
 .img-contain
@@ -679,21 +715,6 @@
     padding: 10px 0 20px;
 }
 
-.sec2hd2
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40pt;
-    font-weight: 100;
-    text-align: center;
-}
-
-.sec2blkpara
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-    text-align: center;
-}
 
 .top-padding
 {
