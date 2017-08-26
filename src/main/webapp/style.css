@@ -173,7 +173,7 @@
 
 .btn-xl
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     font-size: 2.4rem;
     border-radius: 0px;
@@ -221,7 +221,7 @@
 
 .sec3header
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40pt;
     font-weight: 100;
     color: #ffffff;
@@ -232,7 +232,7 @@
 
 .sec3para
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 17pt;
     text-align: left;
@@ -265,7 +265,7 @@
 
 .sec5hd2
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20pt;
     font-weight: 400;
     text-align: center;
@@ -294,7 +294,7 @@
 
 .sec6header
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40pt;
     font-weight: 100;
     text-align: center;
@@ -302,7 +302,7 @@
 
 .sec6para
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20pt;
     text-align: center;
@@ -320,7 +320,7 @@
 
 .sec7header
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40pt;
     font-weight: 100;
     text-align: center;
@@ -384,7 +384,7 @@
 
 .sec2blktxt
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 100;
     font-size: 20px;
     text-align: center;
@@ -392,7 +392,7 @@
 
 .plan_rs
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     font-size: 44pt;
     text-align: center;
@@ -402,7 +402,7 @@
 
 .sec2hd3
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16pt;
     font-weight: 400;
     text-align: center;
@@ -420,7 +420,7 @@
 
 .btn-xl_sec2
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     font-size: 20px;
     border-radius: 0px;
@@ -428,7 +428,7 @@
 
 .btn-xl_sec5
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     padding: 1px 1px;
     font-size: 20px;
@@ -437,7 +437,7 @@
 
 .btn-xl_sec6
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     padding: 1px 1px;
     font-size: 20px;
@@ -460,7 +460,7 @@
 
 .btn-xl_sec7
 {
-    font-family: open sans;
+    font-family: Roboto;
     font-weight: 300;
     padding: 1px 1px;
     font-size: 20px;
@@ -476,7 +476,7 @@
 .navbar
 {
     margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-bottom: 0;
 }
@@ -489,7 +489,7 @@
 .navbar_adjust
 {
     padding-top: 40px;
-    font-family: "open sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 13pt;
 }
