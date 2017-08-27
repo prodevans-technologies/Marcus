@@ -210,6 +210,13 @@
    }
 }
 
+
+/* End of Breakpoints */
+
+
+
+
+
 .nopadding
 {
     padding: 0px;
@@ -267,11 +274,6 @@
     padding-bottom: 40px;
 }
 
-.vlogo
-{
-    height: 100px;
-    width: 200px;
-}
 
 .h1-font
 {
@@ -654,6 +656,14 @@
     object-fit: cover;
 }
 
+/* nav bar */
+
+.vlogo
+{
+    height: 10rem;
+    width: 15rem;
+}
+
 .navbar
 {
     margin-bottom: 0;
@@ -664,7 +674,7 @@
 
 .navbar_height
 {
-    height: 170px;
+    height: 10rem;
 }
 
 .navbar_adjust
