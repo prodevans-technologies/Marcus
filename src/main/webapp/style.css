@@ -16,7 +16,7 @@
     {
         font-size: 2rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -47,7 +47,7 @@
     {
         font-size: 2.5rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -72,7 +72,7 @@
     {
         font-size: 2.2rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -97,7 +97,7 @@
     {
         font-size: 2.4rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -122,7 +122,7 @@
     {
         font-size: 3.2rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -147,7 +147,7 @@
     {
         font-size: 2rem;
     }
-	.sec5hd2
+	.sec2hd2
 	{
     
     font-size: 28pt;
@@ -305,8 +305,6 @@
     padding-top: 10px;
 }
 
-
-
 .sec2block
 {
     background-color: #ebebeb;
@@ -329,15 +327,6 @@
     text-align: center;
 }
 
-
-.sec2hd3
-{
-    font-family: 'Roboto', sans-serif;
-    
-    font-weight: 100;
-    text-align: center;
-}
-
 .plan_rs
 {
     font-family: 'Roboto', sans-serif;
@@ -347,7 +336,6 @@
     color: #0066cc;
     padding-bottom: 15px;
 }
-
 
 .separating_line
 {
@@ -369,7 +357,13 @@
 .sec2hd2
 {
     font-family: 'Roboto', sans-serif;
-   
+    font-weight: 100;
+    text-align: center;
+}
+
+.sec2hd3
+{
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: center;
 }
@@ -382,7 +376,6 @@
     text-align: center;
 }
 
-
 .btn-xl_sec2
 {
     font-family: open sans;
@@ -390,7 +383,6 @@
     font-size: 20px;
     border-radius: 0px;
 }
-
 
 /* end of section 2 */
 
