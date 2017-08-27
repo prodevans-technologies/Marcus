@@ -31,7 +31,11 @@
    {
 	   font-size: 1.5rem;
    }
-   
+   .sec5hd2
+   {
+	   font-size: 25px;
+	   
+   }
 
 }
 
@@ -95,6 +99,16 @@
    {
 	   font-size: 2rem;
    }
+   .infoimgpadding
+    {
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+    }
+	.sec5hd2
+	{
+	 font-size: 28pt;
+	}
+   
 }
 
 /* Laptops, 15 inch desktops, 1366px and up) */
@@ -476,7 +490,7 @@
 .sec5hd2
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 28pt;
+   
     font-weight: 100;
     text-align: center;
 }
