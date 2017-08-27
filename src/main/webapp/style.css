@@ -16,6 +16,13 @@
     {
         font-size: 2rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
+
 }
 
 /* Small devices (landscape phones, 544px and up) */
@@ -34,6 +41,12 @@
     {
         font-size: 2.5rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
 }
 
 /* Laptops, 15 inch desktops, 992px and up) */
@@ -48,6 +61,12 @@
     {
         font-size: 2.2rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
 }
 
 /* Laptops, 15 inch desktops, 1366px and up) */
@@ -62,6 +81,12 @@
     {
         font-size: 2.4rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
 }
 
 /* Large Laptops, desktops, tv screens etc 1600px and up) */
@@ -76,6 +101,12 @@
     {
         font-size: 3.2rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
 }
 
 /* iPads (portrait) ----------- */
@@ -90,6 +121,12 @@
     {
         font-size: 2rem;
     }
+	.sec5hd2
+{
+    
+    font-size: 28pt;
+    
+}
 }
 
 .nopadding
@@ -237,13 +274,7 @@
     padding-top: 10px;
 }
 
-.sec5hd2
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 28pt;
-    font-weight: 100;
-    text-align: center;
-}
+
 
 .sec2block
 {
@@ -307,7 +338,7 @@
 .sec2hd2
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40pt;
+   
     font-weight: 100;
     text-align: center;
 }
@@ -387,6 +418,15 @@
 }
 
 
+.sec5hd2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28pt;
+    font-weight: 100;
+    text-align: center;
+}
+
+
 .btn-xl_sec5
 {
     font-family: open sans;
@@ -395,7 +435,6 @@
     font-size: 20px;
     border-radius: 0px;
 }
-
 
 /* end of section 5 */
 
