@@ -36,6 +36,12 @@
 	   font-size: 25px;
 	   
    }
+   .slidemarginhide
+   {
+   margin-right:0px;
+   margin-left:0px;
+   }
+   
 
 }
 
@@ -70,6 +76,12 @@
    {
 	   font-size: 1.5rem;
    }
+   .slidemarginhide
+   {
+   margin-right: -15px;
+   margin-left: -15px;
+   }
+
 }
 
 /* Laptops, 15 inch desktops, 992px and up) */
