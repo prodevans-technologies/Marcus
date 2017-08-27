@@ -17,11 +17,17 @@
         font-size: 2rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+   .sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
+   
 
 }
 
@@ -42,11 +48,16 @@
         font-size: 2.5rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+	.sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
 }
 
 /* Laptops, 15 inch desktops, 992px and up) */
@@ -62,11 +73,16 @@
         font-size: 2.2rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+	.sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
 }
 
 /* Laptops, 15 inch desktops, 1366px and up) */
@@ -82,11 +98,16 @@
         font-size: 2.4rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+	.sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
 }
 
 /* Large Laptops, desktops, tv screens etc 1600px and up) */
@@ -102,11 +123,16 @@
         font-size: 3.2rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+	.sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
 }
 
 /* iPads (portrait) ----------- */
@@ -122,11 +148,16 @@
         font-size: 2rem;
     }
 	.sec5hd2
-{
+	{
     
     font-size: 28pt;
     
-}
+	}
+	.sec2hd3
+   {
+	   font-size: 24pt;
+	   
+   }
 }
 
 .nopadding
@@ -302,7 +333,7 @@
 .sec2hd3
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24pt;
+    
     font-weight: 100;
     text-align: center;
 }
