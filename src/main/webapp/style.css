@@ -281,8 +281,8 @@
 {
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .top-bottom-padding
@@ -295,13 +295,14 @@
 .h1-font
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .p-font
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
+    
 }
 
 .h4-font
@@ -676,7 +677,8 @@
 /* nav bar */
 
 .vlogo
-{
+{   
+    margin-left: 10px;
     height: 10rem;
     width: 15rem;
 }
