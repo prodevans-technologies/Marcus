@@ -699,9 +699,9 @@
 .navbar_adjust
 {
     padding-top: 40px;
-    font-family: "open sans", sans-serif;
-    font-weight: 400;
-    font-size: 13pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 .nav-item-underlined:after, .nav-underlined > li:after {
@@ -759,6 +759,7 @@
     height: auto;
     position: relative;
     width: 100%;
+    
 }
 
 .footer p
@@ -806,6 +807,10 @@
 {
     padding-top: 10px;
     padding-bottom: 10px;
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 .footer-bottom p.pull-left
