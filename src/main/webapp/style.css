@@ -716,7 +716,7 @@
 
 .underlined-active:after, .nav-underlined:hover > li:hover:after, .nav-underlined:active > li:hover:after, .nav-underlined:hover > li.active:hover:after, .nav-underlined:active > li.active:hover:after, .nav-underlined > li.active:after, .nav-underlined > li:hover:after
 {
-    border-color: #337ab7;
+    border-color: #F44336;
 }
 
 .unline-deactived:after, .nav-underlined:hover > li.active:after, .nav-underlined:active > li.active:after
