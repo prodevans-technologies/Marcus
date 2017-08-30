@@ -40,7 +40,7 @@
     }
     p
     {
-        font-size: 2.2rem;
+        font-size: 1.875rem;
     }
 }
 
@@ -154,14 +154,14 @@
 h1
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 
 p
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 /* Nav bar */
@@ -169,8 +169,8 @@ p
 .navbar
 {
     margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     padding-bottom: 0;
 }
 
@@ -236,7 +236,7 @@ p
 {
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     padding-bottom: 0;
     color: #000000;
     height: auto;
