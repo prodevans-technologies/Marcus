@@ -164,19 +164,26 @@ p
     font-weight: 300;
 }
 
-/* Nav bar */
+/* nav bar */
+
+.vlogo
+{   
+    margin-left: 10px;
+    height: 10rem;
+    width: 15rem;
+}
 
 .navbar
 {
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding-bottom: 0;
 }
 
 .navbar_height
 {
-    height: 120px;
+    height: 10rem;
 }
 
 .navbar_adjust
@@ -217,6 +224,7 @@ p
     border-bottom: 0px solid #eee;
 }
 
+
 /*footer*/
 
 .full
@@ -235,13 +243,14 @@ p
 .footer
 {
     margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     padding-bottom: 0;
     color: #000000;
     height: auto;
     position: relative;
     width: 100%;
+    
 }
 
 .footer p
@@ -289,6 +298,10 @@ p
 {
     padding-top: 10px;
     padding-bottom: 10px;
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 .footer-bottom p.pull-left
@@ -296,3 +309,7 @@ p
     padding-top: 6px;
 }
 
+.row-white
+{
+    color: #ffffff;
+}
