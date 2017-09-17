@@ -228,6 +228,7 @@
                              <button type="button" class="btn btn-danger sec5button btn-xl buttonv" align="right">FIND OUT MORE</button>
                          </div>
                      </div>-->
+                    
                     <div class="col-md-1"> </div>
                 </div>
                 <div class="row row-white" style="padding-bottom:10px;"> </div>
@@ -302,7 +303,7 @@
                 <div class="row" style="padding-top:0px; padding-bottom:20px;">
                     <div class="col-md-12">
                         <h1 style="text-align:center;">24/7 Support</h1> 
-                        <p style="text-align:center;">Call +91 90196 02602, and we’ll make sure your network never stops. </p> 
+                        <p style="text-align:center;">Call 080-30323000, and we’ll make sure your network never stops. </p> 
                     </div>
                 </div>
                 <div class="row">
