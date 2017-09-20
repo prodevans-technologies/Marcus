@@ -80,7 +80,7 @@
                     </div>
                     <p class="p-font font-black text-align-center styled-select slate">
                         <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/varrow2.png); background-size: 29px 29px; background-repeat: no-repeat; background-position: right top; width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
-                            <option class="vselect" value="vic">CHOOSE YOUR CITY  </option> 
+                            <option value="vic">CHOOSE YOUR CITY  </option> 
                             <option value="Bengaluru">Bengaluru</option>
                             <option value="Hyderabad">Hyderabad</option>
                         </select>
@@ -184,7 +184,7 @@
                         <div>
                             <h1 style="text-align:center; color:white;"> Never slow down</h1> 
                             <p style="text-align:center; color:white; padding: 0px 20px 0px 20px;">Stream, download, post or game lag-free any time of the day — our 
-                                intelligent network prioritises 
+                                thinking network prioritises 
                                 bandwidth across users and apps 
                                 dynamically. <br><br>
                                 Watching GoT? It steps on the gas. 
@@ -302,7 +302,7 @@
                 <div class="row" style="padding-top:0px; padding-bottom:20px;">
                     <div class="col-md-12">
                         <h1 style="text-align:center;">24/7 Support</h1> 
-                        <p style="text-align:center;">Call 080-30323000, and we’ll make sure your network never stops. </p> 
+                        <p style="text-align:center;">Call +91 90196 02602, and we’ll make sure your network never stops. </p> 
                     </div>
                 </div>
                 <div class="row">
