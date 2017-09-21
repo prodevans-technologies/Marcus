@@ -6,7 +6,7 @@
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>      
         </head> 
-        <body>
+        <body> 
             <!-- Navigation -->
         <jsp:include page="components/footerpagenav.jsp"></jsp:include>   
 
