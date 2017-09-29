@@ -29,7 +29,8 @@
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
                                 <div class="row row-white" style="padding-bottom:17%;"> </div>
-                                <p class="faqp1" >No Refund of fixed duration pack or Cancellation of payment transaction is allowed. Any disputes in regards to payments / refund of transaction(s) due to technical reasons are subject to arbitration / resolution on a case to case basis.</p>
+                                <!--<p class="faqp1" >No Refund of fixed duration pack or Cancellation of payment transaction is allowed. Any disputes in regards to payments / refund of transaction(s) due to technical reasons are subject to arbitration / resolution on a case to case basis.</p>-->
+                                <p class="faq1">Once purchased, no refunds or cancellations will be accommodated. Any disputes with regard to payment/refund of transaction(s) due to technical reasons are subject to arbitration/resolution on a case to case basis.</p>
                                 <div class="row row-white" style="padding-bottom:17%;"> </div>    
                             </div>
                         </div>
@@ -37,13 +38,13 @@
                     </div>
                     
                 </section>
-                <jsp:include page="components/float.jsp"></jsp:include>
+                <jsp:include page="components/floatf.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
 
 
         <!-- Footer -->
-        <jsp:include page="components/footer.jsp"></jsp:include>
+        <jsp:include page="components/footerf.jsp"></jsp:include>
 
         <script src="js/jquery.min.js"></script>     
         <script src="js/bootstrap.min.js"></script>     
