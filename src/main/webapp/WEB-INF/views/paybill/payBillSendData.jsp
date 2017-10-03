@@ -46,7 +46,7 @@
 
             order_id2 =(String)request.getAttribute("act_id");
             order_id= ""+year + "" + month + "" + date + "" + hr + "" + minute;
-            //out.print("<h1>"+order_id+"</h1>");
+            out.print("<h1>"+order_id2+"</h1>");
         %>    
 
         <form method="post" name="customerData" action="payBillRequestHandler" >
