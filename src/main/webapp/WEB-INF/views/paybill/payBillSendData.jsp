@@ -27,7 +27,7 @@
 
         <%!
             String order_id = "";
-             String order_id1 = "";
+             String order_id2 = "";
             String year = "";
             String month = "";
             String date = "";
@@ -44,8 +44,8 @@
             hr = "" + localDate.getHour();
             minute = "" + localDate.getMinute();
 
-            order_id =(String)request.getAttribute("act_id");
-            order_id1= ""+year + "" + month + "" + date + "" + hr + "" + minute;
+            order_id2 =(String)request.getAttribute("act_id");
+            order_id= ""+year + "" + month + "" + date + "" + hr + "" + minute;
             //out.print("<h1>"+order_id+"</h1>");
         %>    
 
