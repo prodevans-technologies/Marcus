@@ -37,6 +37,8 @@ public class PayBillController
 	{
 		bill=payBillDAOImpl.getAccountDetails(bill);
 		session.setAttribute("bill",bill);
+                model.addAttribute("act_id",bill.getAccount_id());
+                
 		return  new ModelAndView("paybill/payBillSendData","bill",bill);
 	}
 	
