@@ -76,7 +76,7 @@
             <input type="hidden" name="billing_zip" value="${bill.getPin() }"/><!-- billing zip -->
             <input type="hidden" name="billing_country" value="India"/><!-- billing country -->
             <input type="hidden" name="billing_tel" value="${bill.getMobile() }"/><!-- billing tel -->
-            <input type="hidden" name="billing_email" value="${bill.getEMAIL() }"/><!-- billing email -->
+            <input type="hidden" name="billing_email" value="${bill.getEmail() }"/><!-- billing email -->
             <input type="hidden" name="billing_name" value="${bill.getFirst_name() }"/><!--billing name  -->
             <input type="hidden" name="billing_address" value="${bill.getAddress() }"/><!-- billing address -->
             <input type="hidden" name="billing_city" value="${bill.getCity() }"/><!-- billing city -->

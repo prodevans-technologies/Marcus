@@ -5,7 +5,7 @@ public class PayBillDetails
 
 	private String account_id;
 	private String email_id;
-        private String EMAIL;
+        private String email;
 	private double amount;
 	
 	
@@ -17,13 +17,15 @@ public class PayBillDetails
 	private String city;
 	private String pin;
 
-        public String getEMAIL() {
-            return EMAIL;
-        }
+    public String getEmail() {
+        return email;
+    }
 
-        public void setEMAIL(String EMAIL) {
-            this.EMAIL = EMAIL;
-        }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+        
 	
 	public String getAccount_id() {
 		return account_id;
@@ -107,10 +109,10 @@ public class PayBillDetails
 
     @Override
     public String toString() {
-        return "PayBillDetails{" + "account_id=" + account_id + ", email_id=" + email_id + ", EMAIL=" + EMAIL + ", amount=" + amount + ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name=" + last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + '}';
+        return "PayBillDetails{" + "account_id=" + account_id + ", email_id=" + email_id + ", email=" + email + ", amount=" + amount + ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name=" + last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + '}';
     }
 
-	
+    
 	
 	
 	
