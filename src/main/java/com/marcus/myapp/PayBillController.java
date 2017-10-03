@@ -35,9 +35,10 @@ public class PayBillController
 	public ModelAndView payBillRequest(ModelMap model, HttpSession session,@ModelAttribute(name="payBillDetails")PayBillDetails bill) throws XmlRpcException 
 	{
                 model.addAttribute("act_id",bill.getAccount_id());
-                //System.out.println("Account ID :"+bill.getAccount_id());
+                System.out.println("Account ID :"+bill.getAccount_id());
 		bill=payBillDAOImpl.getAccountDetails(bill);
 		session.setAttribute("bill",bill);
+                session.setAttribute("act_id",bill.getAccount_id());
 		return  new ModelAndView("paybill/payBillSendData","bill",bill);
 	}
 	
