@@ -105,12 +105,12 @@ public class PayBillDetails
 		this.pin = pin;
 	}
 
-	@Override
-	public String toString() {
-		return "PayBillDetails [account_id=" + account_id + ", email_id=" + email_id + ", amount=" + amount
-				+ ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name="
-				+ last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + "]";
-	}
+    @Override
+    public String toString() {
+        return "PayBillDetails{" + "account_id=" + account_id + ", email_id=" + email_id + ", EMAIL=" + EMAIL + ", amount=" + amount + ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name=" + last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + '}';
+    }
+
+	
 	
 	
 	
