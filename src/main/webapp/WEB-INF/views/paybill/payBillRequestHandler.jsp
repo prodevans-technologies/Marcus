@@ -30,8 +30,8 @@
 	
 	
 	
-	 String accessCode= "AVQZ69EC67BC82ZQCB";		//Put in the Access Code in quotes provided by CCAVENUES.
-	 String workingKey = "399EEF58D17B77592F4B745B83B06CED";    //Put in the 32 Bit Working Key provided by CCAVENUES.  
+	 String accessCode= "AVGK73EJ46AD68KGDA";		//Put in the Access Code in quotes provided by CCAVENUES.
+	 String workingKey = "D12ABCBE2A86FC4942B6C71B089B5F32";    //Put in the 32 Bit Working Key provided by CCAVENUES.  
 	 Enumeration enumeration=request.getParameterNames();
 	 String ccaRequest="", pname="", pvalue="";
 	 while(enumeration.hasMoreElements()) {

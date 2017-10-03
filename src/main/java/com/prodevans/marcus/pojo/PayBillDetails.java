@@ -5,6 +5,7 @@ public class PayBillDetails
 
 	private String account_id;
 	private String email_id;
+        private String EMAIL;
 	private double amount;
 	
 	
@@ -15,6 +16,14 @@ public class PayBillDetails
 	private String address;
 	private String city;
 	private String pin;
+
+        public String getEMAIL() {
+            return EMAIL;
+        }
+
+        public void setEMAIL(String EMAIL) {
+            this.EMAIL = EMAIL;
+        }
 	
 	public String getAccount_id() {
 		return account_id;
