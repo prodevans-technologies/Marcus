@@ -19,6 +19,8 @@
     h4
     {
         font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -39,6 +41,8 @@
     .sec5hd2
     {
         font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
 
     .sec2blk_eq_ht {
@@ -84,6 +88,8 @@
     h4
     {
         font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -121,6 +127,8 @@
     h4
     {
         font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -141,6 +149,8 @@
     .sec5hd2
     {
         font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     .img-height
     {
@@ -178,6 +188,8 @@
     h4
     {
         font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -211,6 +223,8 @@
     h4
     {
         font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -231,6 +245,8 @@
     .sec5hd2
     {
         font-size: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     .img-height
     {
@@ -304,6 +320,8 @@
     h4
     {
         font-size: 31px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -324,6 +342,8 @@
     .sec5hd2
     {
         font-size: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
 }
 
@@ -346,6 +366,8 @@
     h4
     {
         font-size: 31px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     p
     {
@@ -366,6 +388,8 @@
     .sec5hd2
     {
         font-size: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
     }
     .sec2slidetotext
     {
@@ -447,7 +471,7 @@ h1{
     z-index: 99999999;
     color: #fff;
     padding: 10px 10px;
-    background-color: #006699;
+    background-color: #000;
     border: none;
     font-weight: 300;
     display: none;
@@ -697,7 +721,7 @@ h1{
     }
     .navbar-toggle .icon-bar
     {
-        background-color: #006699;
+        background-color: #000;
     }
     .fixed-header ul li a:hover, 
     .fixed-header ul li .current
@@ -923,26 +947,26 @@ a{
 /* end of section 1 */
 
 .vplans{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     font-size: 14px;
     text-align: center;
 }
 .vfont{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     text-align: center;
 }
 
 .vcenter{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     text-align: center;
 }
 .buttonv
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     border-radius: 0px;
     letter-spacing: normal;
     word-spacing: normal;
