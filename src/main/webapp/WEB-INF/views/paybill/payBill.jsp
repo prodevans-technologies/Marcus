@@ -59,11 +59,9 @@
                         <h1 class="h1-font">Pay bill</h1>
                     </div>
                     <div class="col-md-8  paayheaderpadding " style="background-color: #e2e2e2"> </div>
-
                 </div>             
             </section>
 
-			
             <section class="col-md-12 col-lg-12 nopadding"> 
                 <div class="row flex-row" style="background-color:#fff; margin: 2%; padding-top: 3%; padding-bottom: 3%; ">
                     <div class="col-md-4 valign "> </div>
@@ -89,20 +87,18 @@
                             </div>
                             <div class="row row-white" style="padding-bottom:3%;"> </div>
                             <div class="col-md-8">
-                            	<h5 style="color:red; text-align: center;">
-									<b>
-										<c:if test="${ not empty mailIDMessage}">${mailIDMessage}</c:if>
-										<c:if test="${ not empty amountMessage}">${amountMessage}</c:if>
-									</b>
-					           	</h5>
-                            </div>
-
-                            <div class="col-md-3" align="right" style="padding-right:3.75%;">
-                                <button type="submit" class="btn btn-danger btn-xl buttonv"> PAY BILL </button>
-                            </div>
-                            
-                            <div class="col-md-1"></div>
-                            <div class="row row-white" style="padding-bottom:2%;"> </div>
+                                <h5 style="color:red; text-align: center;">
+                                    <b>
+                                        <c:if test="${ not empty mailIDMessage}">${mailIDMessage}</c:if>
+                                        <c:if test="${ not empty amountMessage}">${amountMessage}</c:if>
+                                        </b>
+                                    </h5>
+                                </div>
+                                <div class="col-md-3" align="right" style="padding-right:3.75%;">
+                                    <button type="submit" class="btn btn-danger btn-xl buttonv"> PAY BILL </button>
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="row row-white" style="padding-bottom:2%;"> </div>
                         </form:form>
                     </div>
                     <div class="col-md-1"></div>
