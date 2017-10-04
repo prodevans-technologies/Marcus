@@ -45,7 +45,7 @@
             minute = "" + localDate.getMinute();
 
             order_id2 =(String)request.getAttribute("act_id");
-            order_id= ""+year + "" + month + "" + date + "" + hr + "" + minute;
+            order_id2= order_id2+""+year + "" + month + "" + date + "" + hr + "" + minute;
             out.print("<h1>"+order_id2+"</h1>");
         %>    
 
@@ -57,7 +57,7 @@
             <input type="hidden" name="trans_descr" value="Description">
             <input readonly="readonly" type="hidden" name="tid" id="tid" value=""/><!-- Transaction ID -->
             <input type="hidden" name="merchant_id" value="127191"/><!-- Merchant Id	: -->
-            <input type="hidden" name="order_id" value="<%=order_id%>"/><!-- Order Id	: -->
+            <input type="hidden" name="order_id" value="<%=order_id2%>"/><!-- Order Id	: -->
             <input type="hidden" name="amount" value="${bill.getAmount() }"   />
             <input type="hidden" name="currency" value="INR"/><!-- Currency	: -->
             <input type="hidden" name="redirect_url" value="http://www.oneeight.co.in//payBillResponseHandler"/><!-- Redirect URL	: -->
@@ -65,7 +65,7 @@
             <input type="hidden" name="language" value="EN"/><!-- Language	: -->
             <input readonly="readonly" type="hidden" name="tid" id="tid" value=""/><!-- Transction ID -->
             <input type="hidden" name="merchant_id" value="127191"/><!-- Merchant ID -->
-            <input type="hidden" name="order_id" value="<%=order_id%>"/><!-- order id -->
+            <input type="hidden" name="order_id" value="<%=order_id2%>"/><!-- order id -->
             <input type="hidden" name="amount" value="${bill.getAmount() }"/><!--Amount  -->
             <input type="hidden" name="currency" value="INR"/><!-- currency -->
             <input type="hidden" name="redirect_url" value="http://www.oneeight.co.in//payBillResponseHandler"/><!-- Redirect URL -->

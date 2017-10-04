@@ -34,12 +34,38 @@ public class PayBillController
 	@RequestMapping(value = "/payBillRequest", method = RequestMethod.POST)
 	public ModelAndView payBillRequest(ModelMap model, HttpSession session,@ModelAttribute(name="payBillDetails")PayBillDetails bill) throws XmlRpcException 
 	{
-                model.addAttribute("act_id",bill.getAccount_id());
-                System.out.println("Account ID :"+bill.getAccount_id());
+	
+		String EnteredEmailID=bill.getEmail_id();
+		double amount=bill.getAmount();
+		System.out.println("Amount : "+amount);
+		
+        model.addAttribute("act_id",bill.getAccount_id());
+        System.out.println("Account ID :"+bill.getAccount_id());
+        
 		bill=payBillDAOImpl.getAccountDetails(bill);
 		session.setAttribute("bill",bill);
-                session.setAttribute("act_id",bill.getAccount_id());
-		return  new ModelAndView("paybill/payBillSendData","bill",bill);
+        
+		session.setAttribute("act_id",bill.getAccount_id());
+        
+        String DBEmailID=bill.getEmail();
+        System.out.println(DBEmailID);
+        
+        if(EnteredEmailID.equals(DBEmailID))
+        {
+        	if(amount>0)
+        	{
+        		return  new ModelAndView("paybill/payBillSendData","bill",bill);
+        	}
+        	else
+        	{
+        		return  new ModelAndView("paybill/payBill","amountMessage","Please enter valid amount");
+        	}
+        }
+        else
+        {
+        	return  new ModelAndView("paybill/payBill","mailIDMessage","Your email ID is not matched with One8 accountID");
+        }
+        
 	}
 	
 	@RequestMapping(value = "/payBillRequestHandler", method = RequestMethod.POST)
