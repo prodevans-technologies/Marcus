@@ -63,7 +63,7 @@ public class PayBillController
         }
         else
         {
-        	return  new ModelAndView("paybill/payBill","mailIDMessage","Your email ID is not matched with One8 accountID");
+        	return  new ModelAndView("paybill/payBill","mailIDMessage","Your Email ID is not matched with One8 accountID");
         }
         
 	}
