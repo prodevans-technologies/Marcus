@@ -4,6 +4,11 @@
 
 @media (min-width:319px)
 {
+    #plans
+{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
     h1
     {
         font-size: 24px;
@@ -73,6 +78,11 @@
 
 @media (min-width:481px)
 {
+     #plans
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
     h1
     {
         font-size: 34px;
@@ -112,6 +122,11 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
 {
+     #plans
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
     h1
     {
         font-size: 34px;
@@ -173,6 +188,11 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
 {
+     #plans
+{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
     h1
     {
         font-size: 34px;
@@ -208,6 +228,11 @@
 
 @media (min-width:961px)
 {
+     #plans
+{
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
     h1
     {
         font-size: 34px;
@@ -305,6 +330,12 @@
 
 @media only screen and (min-width : 1824px)
 {
+    
+         #plans
+{
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
     h1
     {
         font-size: 44px;
@@ -351,6 +382,11 @@
 
 @media only screen and (min-width : 1921px)
 {
+         #plans
+{
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
     h1
     {
         font-size: 44px;
