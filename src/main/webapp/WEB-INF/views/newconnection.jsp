@@ -28,31 +28,31 @@
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="text" required="required" path="name" id="Name" name="name" placeholder="Name" />
+                            <form:input type="text" required="required" path="name" id="Name" name="name" placeholder="Name" maxlength="15"/>
                         </div>
                     </div>
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="email" required="required" path="email_id" id="email_id" name="email_id" placeholder="Email" />
+                            <form:input type="email" required="required" path="email_id" id="email_id" name="email_id" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
                         </div>
                     </div>
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="text" required="required" path="mobile" id="mobile" name="mobile" placeholder="Mobile" />
+                            <form:input type="text" required="required" path="mobile" id="mobile" name="mobile" placeholder="Mobile" pattern="[7|8|9][0-9]{9}" title="Enter valid Mobile Number Ex: 9019602602"/>
                         </div>
                     </div>
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="text" required="required" path="city" id="city" name="city" placeholder="City" />
+                            <form:input type="text" required="required" path="city" id="city" name="city" placeholder="City"  pattern="[A-Za-z].{2,}" title="Enter valied city name. Ex: Bangalore"/>
                         </div>
                     </div>
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="text" required="required" path="pincode" id="pincode" name="pincode" placeholder="Pincode" />
+                            <form:input type="text" required="required" path="pincode" id="pincode" name="pincode" placeholder="Pincode" pattern="[0-9]{6}" title="Enter valid Pincode Number  Ex: 583101"/>
                         </div>
                     </div>
                     <div class="col-md-12  "></div>
