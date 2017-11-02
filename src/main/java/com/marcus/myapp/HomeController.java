@@ -48,6 +48,7 @@ public class HomeController {
         return "index";
     }*/
 
+    
     @RequestMapping(value = "/about", method = RequestMethod.GET)
     public String about(Locale locale, Model model) {
 
