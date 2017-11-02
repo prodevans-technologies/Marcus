@@ -14,6 +14,7 @@
             <!-- Main container -->
 
             <div id="v" class="container-fluid nopadding"> 
+
                 <!-- We are One8 -->
 
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
@@ -44,7 +45,7 @@
                                 <div class="row row-white" style="padding-top: 3%; padding-bottom:6%;"> </div>
                                 <p class="faqp"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">Mail</p> 
                                 <p class="faqp1" style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
-                                    <a style="font-size: 15px" href="mailto:info@oneeight.co.in">info@oneeight.co.in</a>
+                                     <a style="font-size: 15px" href="mailto:info@oneeight.co.in">info@oneeight.co.in</a>
                                 </p>
                             </div>
                         </div>
