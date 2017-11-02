@@ -11,7 +11,6 @@
         <body> 
             <!-- Navigation -->
         <jsp:include page="components/footerpagenav.jsp"></jsp:include>   
-
             <!-- Main container -->
 
             <div id="v" class="container-fluid nopadding"> 
