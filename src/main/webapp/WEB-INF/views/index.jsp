@@ -96,17 +96,17 @@
                         <div class="col-md-6 sec2block " style="padding-top:10px; padding-bottom:10px;">
                             <h2 class="sec5hd2 text-align-center">PLANS</h2>
                             <div style="padding-bottom:2em;">
-                            <div class="col-xs-4 vcenter" >
-                                        <h4 class="sec2hd22"><span id="dbasic">STARTER </span></h4>
-                                    </div>
-                                    <div class="col-xs-4 vcenter" align="center">
-                                        <h4 class="sec2hd2"><span id="dstandard">POWER</span></h4>
-                                    </div>
-                                    <div class="col-xs-3 vcenter">
-                                        <h4 class="sec2hd222"><span id="dpremium">PRO</span></h4>
-                                    </div>
+                                <div class="col-xs-4 vcenter" >
+                                    <h4 class="sec2hd22"><span id="dbasic">STARTER </span></h4>
+                                </div>
+                                <div class="col-xs-4 vcenter" align="center">
+                                    <h4 class="sec2hd2"><span id="dstandard">POWER</span></h4>
+                                </div>
+                                <div class="col-xs-3 vcenter">
+                                    <h4 class="sec2hd222"><span id="dpremium">PRO</span></h4>
+                                </div>
                             </div>
-                            
+
                             <!--<h4 class="text-align-center" ><span id="dbasic">STARTER</span>&nbsp;&nbsp;<span id="dstandard">POWER</span>&nbsp;&nbsp;<span id="dpremium">PRO</span></h4>-->
 
                             <div id="slider-text" align="center">
@@ -178,7 +178,7 @@
                                     <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
 
                                     <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span>
-                                      &bull;&nbsp;<span id="dslidertextspeed"></span></p>
+                                        &bull;&nbsp;<span id="dslidertextspeed"></span></p>
                                     <p class="sec2slidetotext vplans" > &bull; &nbsp; Exclusive of GST</p>
                                     <div class="col-md-12 text-center sec2btnpadding" style="padding-top:10%;">
                                         <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
@@ -190,7 +190,7 @@
                     </div>
                 </div> <!-- mobile and firefox -->
 
-                
+
             </section>
 
             <!-- Never Slow DOwn -->
