@@ -29,5 +29,9 @@
         <servlet-name>appServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+    
+    <error-page>
+    <location>/errors</location>
+</error-page>
 
 </web-app>

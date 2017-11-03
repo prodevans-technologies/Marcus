@@ -4,6 +4,7 @@ com\prodevans\marcus\dao\impl\PayBillDAOImpl.class
 com\prodevans\marcus\pojo\SendMailDetails.class
 com\marcus\myapp\SendMailController.class
 com\prodevans\marcus\dao\impl\SendMailDAOImpl.class
+com\marcus\myapp\errorController.class
 com\prodevans\marcus\pojo\PayBillDetails.class
 com\marcus\myapp\PayBillController.class
 com\marcus\myapp\HomeController.class

@@ -1,7 +1,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<html> 
+<!DOCTYPE HTML>
+html> 
     <head> 
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>      
