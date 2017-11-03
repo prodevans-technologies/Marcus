@@ -134,7 +134,9 @@
                         <div class="col-md-1"> </div>
                         <!-- bottom row -->
                     </div>
+                    
                     <!--  </div>  container -->
+                    
                 </div>
 
                 <!--vikram desktop-->
@@ -159,7 +161,7 @@
                                         <h4 class="sec2hd222"><span id="premium">PRO</span></h4>
                                     </div>
 
-                                    <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
+                                    <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px" padding-left="5px">
                                         <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                     </div>
 
