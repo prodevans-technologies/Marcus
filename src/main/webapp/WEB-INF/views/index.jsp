@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html> 
     <head> 
-    	<script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script>
+    	
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>     
         </head> 
@@ -178,7 +178,7 @@
 
                             <div class="col-md-4 sec2block vplan valign col2">
                                 <div> 
-                                    <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
+                                    <h3 class="plan_rs separating_line"><div id="dslidertextprice"></div></h3> 
 
                                     <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span>
                                       &bull;&nbsp;<span id="dslidertextspeed"></span></p>
@@ -358,7 +358,7 @@
     
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
 <script>
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -376,5 +376,4 @@ ga('create', 'UA-109148925-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-</script>
 </html>
