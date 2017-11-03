@@ -358,7 +358,7 @@
     
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
 <script>
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -375,5 +375,6 @@
 ga('create', 'UA-109148925-1', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 </html>
