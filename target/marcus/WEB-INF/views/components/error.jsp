@@ -44,7 +44,7 @@ img{max-width:100%;}
 /*-- end reset --*/
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url(images/error.jpg)no-repeat center 0px;
+    background: url(images/error1.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover; 
 	background-size:cover;
