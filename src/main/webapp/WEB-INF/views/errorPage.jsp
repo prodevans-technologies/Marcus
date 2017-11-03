@@ -53,6 +53,10 @@
 
 ga('create', 'UA-109148925-1', 'auto');
 ga('send', 'pageview');
+
+ga(function(tracker) {
+	  console.log(tracker.get('clientId'));
+	});
 </script>
 </html>
 
