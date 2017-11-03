@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html> 
     <head> 
     	<script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script>

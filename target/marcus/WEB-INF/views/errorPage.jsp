@@ -3,6 +3,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/error.jsp"></jsp:include>   
     </head>
     <body>
