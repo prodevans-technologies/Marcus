@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html> 
     <head> 
-    	<script async src="//www.google-analytics.com/analytics.js"></script>
+    	<script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script>
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>     
         </head> 
