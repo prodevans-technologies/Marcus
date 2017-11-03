@@ -15,27 +15,33 @@ public class errorController {
          
         ModelAndView errorPage = new ModelAndView("errorPage");
         String errorMsg = "";
+        String errorMsg1 = "";
         int httpErrorCode = getErrorCode(httpRequest);
  
         switch (httpErrorCode) {
             case 400: {
-                errorMsg = "Http Error Code: 400. Bad Request";
+                errorMsg = " 400";
+                errorMsg1 ="Bad Request";
                 break;
             }
             case 401: {
-                errorMsg = "Http Error Code: 401. Unauthorized";
+                errorMsg = "401";
+                 errorMsg1 =" Unauthorized";
                 break;
             }
             case 404: {
-                errorMsg = "Http Error Code: 404. Resource not found";
+                errorMsg = "404";
+                errorMsg1 = "Sorry! The page you were looking for could not be found";
                 break;
             }
             case 500: {
-                errorMsg = "Http Error Code: 500. Internal Server Error";
+                errorMsg = "500";
+                errorMsg1 ="Internal Server Error";
                 break;
             }
         }
         errorPage.addObject("errorMsg", errorMsg);
+        errorPage.addObject("errorMsg1", errorMsg1);
         return errorPage;
     }
      
