@@ -123,9 +123,9 @@
                         <!--  <div class="container-fluid"> -->
                         <!-- <div class="row sec2row sec2blk_eq_ht"> -->
                         <div class="col-md-4 ">
-                            <h3 class="plan_rs  text-align-center"><div id="slidertextprice"/></h3> 
-                            <p class="data-font-size text-align-center"> &bull; <span id="slidertextdata" /></p>
-                            <p class="fup-font-size text-align-center"> &bull; <span id="slidertextspeed" /></p> 
+                            <h3 class="plan_rs  text-align-center"><div id="slidertextprice"></div></h3> 
+                            <p class="data-font-size text-align-center"> &bull; <span id="slidertextdata" ></span></p>
+                            <p class="fup-font-size text-align-center"> &bull; <span id="slidertextspeed" ></span></p> 
                             <p class="sec2blkpara text-align-center"> &bull; Exclusive of GST</p>
                             <div class="col-md-12 text-center sec2btnpadding">
                                 <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                          
