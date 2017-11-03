@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html> 
     <head> 
-    	<script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script>
+    	
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>     
         </head> 
@@ -123,9 +123,9 @@
                         <!--  <div class="container-fluid"> -->
                         <!-- <div class="row sec2row sec2blk_eq_ht"> -->
                         <div class="col-md-4 ">
-                            <h3 class="plan_rs  text-align-center"><div id="slidertextprice"/></h3> 
-                            <p class="data-font-size text-align-center"> &bull; <span id="slidertextdata" /></p>
-                            <p class="fup-font-size text-align-center"> &bull; <span id="slidertextspeed" /></p> 
+                            <h3 class="plan_rs  text-align-center"><div id="slidertextprice"></div></h3> 
+                            <p class="data-font-size text-align-center"> &bull; <span id="slidertextdata" ></span></p>
+                            <p class="fup-font-size text-align-center"> &bull; <span id="slidertextspeed" ></span></p> 
                             <p class="sec2blkpara text-align-center"> &bull; Exclusive of GST</p>
                             <div class="col-md-12 text-center sec2btnpadding">
                                 <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                          
@@ -134,7 +134,9 @@
                         <div class="col-md-1"> </div>
                         <!-- bottom row -->
                     </div>
+                    
                     <!--  </div>  container -->
+                    
                 </div>
 
                 <!--vikram desktop-->
@@ -159,7 +161,7 @@
                                         <h4 class="sec2hd222"><span id="premium">PRO</span></h4>
                                     </div>
 
-                                    <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
+                                    <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px" padding-left="5px">
                                         <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                     </div>
 
@@ -176,7 +178,7 @@
 
                             <div class="col-md-4 sec2block vplan valign col2">
                                 <div> 
-                                    <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
+                                    <h3 class="plan_rs separating_line"><div id="dslidertextprice"></div></h3> 
 
                                     <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span>
                                       &bull;&nbsp;<span id="dslidertextspeed"></span></p>
@@ -356,7 +358,7 @@
     
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-109148925-1"></script>
 <script>
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -374,5 +376,5 @@ ga('create', 'UA-109148925-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-</script>
+
 </html>
