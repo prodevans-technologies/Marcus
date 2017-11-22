@@ -29,11 +29,14 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10 errorpage">
                     <h1><b>${errorMsg}</b></h1>
-
                     <div class="row row-white" style="padding-bottom:1%;"> </div>
-                    <p>You have been tricked into click on a link that cannot be found.<br> Please check the url or go to <a href="${pageContext.request.contextPath }/">Home page </a>and see if you can locate what you are looking for </p>
+                    <p>You have been tricked into click on a link that cannot be found.<br> Please check the url or go to Home page and see if you can locate what you are looking for.</p>
                 </div>
+                
                 <div class="col-md-1"></div>
+                <div class="col-md-12 buttoncenter">
+                        <a class="external"  href="${pageContext.request.contextPath }/"><button type="button" class="btn btn-danger btn-xl buttonv">Home page</button></a>
+                    </div>
             </div>
         </section>
         <script src="js/jquery.min.js"></script>     
