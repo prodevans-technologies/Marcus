@@ -1089,6 +1089,43 @@ a{
 
 /* end of footer */
 
+/* error page*/
+.errorheader
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.errorpage h1
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 100;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.errorpage
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 100;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
 
 /*FAQ*/
 
