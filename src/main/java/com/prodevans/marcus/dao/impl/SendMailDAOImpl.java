@@ -29,8 +29,7 @@ public class SendMailDAOImpl implements SendMailDAO {
 		 String content = "Name: " + feedback.getName() + "\nEmail: " + feedback.getEmail_id() + "\nSubject: " + feedback.getSubject() + "\nMessage: " + feedback.getMessage();
 		params.add(content);
 		params.add("Contact Us..");
-		//params.add("suguna@oneeight.co.in ");
-		params.add("anand.prodevans@gmail.com");
+		params.add("suguna@oneeight.co.in ");
 		params.add(1);
 		
 		Boolean mailResult = (Boolean) rpcClient.execute(unifyHandler + ".sendMail", params);
