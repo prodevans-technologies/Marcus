@@ -5,6 +5,20 @@
 <!DOCTYPE HTML>
 <html> 
     <head> 
+    
+     <style>
+    
+     #myAlert{
+                color: blue;
+                position: absolute;
+                bottom: 50px;
+                left: 100px;
+                font-size:18px;
+                background-color: #fff;
+                border: 1px #008000 solid;s
+            }
+    
+    </style>
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="components/css.jsp"></jsp:include>      
         </head> 
@@ -60,11 +74,20 @@
                     <div class="row row-white" style="padding-bottom:3%;"> </div>
                     <div class="col-md-9 buttonright" align="right" style="padding-right:1.75%;">
                         <button id="newconnection" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
-                        <h3 style="color:green; text-align: center;">
+                       
+                       <c:if test="${not empty msg2 }">
+            <div id="myAlert" class="alert alert-danger">
+                <a href="${pageContext.request.contextPath }/newconnection" class="close">&times;</a>
+            <c:out value="${msg2 }"></c:out>
+            </div>
+        </c:if>
+                       
+                       
+                      <!--    <h3 style="color:green; text-align: center;">
                             <b>
                                 <c:if test="${ not empty msg2}">${msg2}</c:if>
                                 </b>
-                            </h3>
+                            </h3>-->
                         </div>
 
                 </form:form>

@@ -29,7 +29,8 @@ public class SendMailDAOImpl implements SendMailDAO {
 		 String content = "Name: " + feedback.getName() + "\nEmail: " + feedback.getEmail_id() + "\nSubject: " + feedback.getSubject() + "\nMessage: " + feedback.getMessage();
 		params.add(content);
 		params.add("Contact Us..");
-		params.add("suguna@oneeight.co.in ");
+		params.add("anand.prodevans@gmail.com ");
+		//params.add("suguna@oneeight.co.in ");
 		params.add(1);
 		
 		Boolean mailResult = (Boolean) rpcClient.execute(unifyHandler + ".sendMail", params);
@@ -57,8 +58,9 @@ public class SendMailDAOImpl implements SendMailDAO {
         String vv = " Name: " + feedback.getName() + "\n Email: " + feedback.getEmail_id() + "\n Mobile: " + feedback.getMobile() + "\n City: " + feedback.getCity() + "\n Pincode: " + feedback.getPincode();
         params3.add(vv);
         params3.add("New Connection..");
-        params3.add("suguna@oneeight.co.in ");
-    	params3.add(1);
+       // params3.add("suguna@oneeight.co.in ");
+        params.add("anand.prodevans@gmail.com ");
+        params3.add(1);
         Boolean mailResult3= (Boolean) rpcClient.execute(unifyHandler + ".sendMail", params3);
         System.out.println("mail send successfully");
         
